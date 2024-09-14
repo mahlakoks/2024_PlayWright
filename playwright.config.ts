@@ -1,8 +1,8 @@
 import { defineConfig, devices, PlaywrightTestConfig } from '@playwright/test';
-
+import { execSync } from 'child_process';
 
 const config:PlaywrightTestConfig={
- // testMatch:["tests/dropdown.test.ts"],
+  testMatch:["tests/pom.login.ts"],
   use:{
     headless:false,
     screenshot:"on",

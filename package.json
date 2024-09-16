@@ -7,7 +7,7 @@
     "debug": "npx playwright test --ui"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nigel Mahlako",
   "license": "ISC",
   "description": "",
   "devDependencies": {
